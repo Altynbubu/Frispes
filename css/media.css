@@ -1,0 +1,224 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 970px;
+  }
+
+  .hero__form {
+    min-width: 60px;
+    min-height: 60px;
+  }
+  .hero__form__label select {
+    min-width: 265px;
+    height: 58px;
+    margin: 0 35px 15px 35px;
+    font-size: 14px;
+  }
+  .hero__form__label input {
+    min-width: 265px;
+    min-height: 58px;
+    font-size: 14px;
+  }
+  .hero__form__btn {
+    min-width: 263px;
+    font-size: 16px;
+  }
+
+  .hero__img {
+    position: relative;
+    max-width: 643px;
+    min-height: 400px;
+  }
+}
+@media (max-width: 998px) {
+  #header .header {
+    display: flex;
+  }
+  #header .header__nav {
+    display: flex;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #header .header__actions {
+    display: none;
+  }
+  #header .header__burger {
+    display: flex;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .hero__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+}
+@media (max-width: 868PX) {
+  #header .header {
+    display: flex;
+  }
+  #header .header__nav {
+    display: flex;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #header .header__actions__actions {
+    display: none;
+  }
+  #header .header__burger {
+    display: flex;
+  }
+}
+@media (max-width: 868PX) and (max-width: 768PX) {
+  #header .header {
+    display: flex;
+  }
+  #header .header__nav {
+    display: none;
+  }
+  #header .header__actions {
+    display: none;
+  }
+  #header .header__burger {
+    display: flex;
+  }
+}
+@media (max-width: 757px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 768PX) {
+  #header .header {
+    display: flex;
+  }
+  #header .header__nav {
+    display: none;
+  }
+  #header .header__actions {
+    display: none;
+  }
+  #header .header__burger {
+    display: flex;
+  }
+
+  #hero .hero__text {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #hero .hero__text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+  }
+}
+@media (max-width: 750px) {
+  .container {
+    max-width: none;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media (max-width: 576px) {
+  .hero__text {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hero__form {
+    min-width: 225px;
+    background: #10375C;
+  }
+  .hero__form__title {
+    font-size: 24px;
+  }
+  .hero__form__label select {
+    min-width: 165px;
+  }
+  .hero__form__label input {
+    min-width: 165px;
+  }
+  .hero__form__btn {
+    min-width: 363px;
+  }
+
+  .hero__img {
+    position: relative;
+    max-width: 100%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
